@@ -36,6 +36,15 @@ public static class StatisticsHelper
                 max = e;
         return max;
     }
+    
+    public static double CalculateMaxDouble(double[] arr)
+    {
+        double max = double.MinValue;
+        foreach (double e in arr)
+            if (e > max)
+                max = e;
+        return max;
+    }
 
     public static double CalculateMedian(double[] arr)
     {
