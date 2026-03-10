@@ -22,7 +22,7 @@ public static class StatisticsHelper
         
         if (arr.Length % 2 == 0)
         {
-            return (arr[len / 2] + arr[len / 2 + 1]) / 2;
+            return (arr[len / 2 - 1] + arr[len / 2]) / 2;
         }
         else
         {
