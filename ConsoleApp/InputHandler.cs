@@ -27,7 +27,7 @@ public static class InputHandler
 
         try
         {
-            char.Parse(Console.ReadLine());
+            input = char.Parse(Console.ReadLine());
         }
         catch (FormatException)
         {
