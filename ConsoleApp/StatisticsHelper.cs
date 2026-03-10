@@ -28,6 +28,15 @@ public static class StatisticsHelper
         return sum / arr.Length;
     }
 
+    public static int CalculateMax(int[] arr)
+    {
+        int max = int.MinValue;
+        foreach (int e in arr)
+            if (e > max)
+                max = e;
+        return max;
+    }
+
     public static double CalculateMedian(double[] arr)
     {
         int len = arr.Length;
