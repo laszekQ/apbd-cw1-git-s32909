@@ -15,6 +15,18 @@ public static class StatisticsHelper
         
         return sum / arr.Length;
     }
+    
+    public static double CalculateAverage(int[] arr)
+    {
+        double sum = 0.0;
+        
+        foreach (double e in arr) 
+        {
+            sum += e;
+        }
+        
+        return sum / arr.Length;
+    }
 
     public static double CalculateMedian(double[] arr)
     {
