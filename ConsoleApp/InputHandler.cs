@@ -31,7 +31,7 @@ public static class InputHandler
         }
         catch (FormatException)
         {
-            Console.Write("Please enter a single character: ");
+            Console.Write("Please please please enter a single character: ");
             return AskForAChar("");
         }
 
