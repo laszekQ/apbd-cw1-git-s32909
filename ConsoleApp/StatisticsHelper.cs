@@ -59,4 +59,15 @@ public static class StatisticsHelper
             return arr[len / 2];
         }
     }
+
+    public static double CalculateMinimumInRange(double[] arr, int from, int to)
+    {
+        double min = double.MaxValue;
+        for (int i = from; i < to; i++)
+        {
+            if(arr[i] < min)
+                min = arr[i];
+        }
+        return min;
+    }
 }
